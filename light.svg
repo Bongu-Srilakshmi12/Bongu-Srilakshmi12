@@ -1,0 +1,368 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="Sri Lakshmi Bongu - Frontend Developer Profile Banner (Light Theme)">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="50%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#EEF2F6" />
+    </linearGradient>
+
+    <!-- Glass Surface Gradient (Daylight White Glass) -->
+    <linearGradient id="glass-grad-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.90" />
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.80" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="accent-blue-violet-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <linearGradient id="ascii-grad-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="60%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+
+    <!-- Scanline Gradient (Crisp Daylight Azure) -->
+    <linearGradient id="scanline-grad-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0" />
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Border Shimmer Gradient for Light Theme -->
+    <linearGradient id="border-shimmer-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#38BDF8" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#CBD5E1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.45">
+        <animate attributeName="stop-color" values="#818CF8;#38BDF8;#818CF8" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Background Grid Pattern -->
+    <pattern id="grid-pattern-light" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#0284C7" fill-opacity="0.10" />
+    </pattern>
+
+    <!-- Clip Paths for scanline -->
+    <clipPath id="portrait-clip-light">
+      <rect x="52" y="112" width="376" height="340" rx="10" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono-l { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .sans-l { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .ascii-text-light {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 8.4px;
+      line-height: 11px;
+      letter-spacing: 1.6px;
+      fill: url(#ascii-grad-light);
+    }
+  </style>
+
+  <!-- ================= CANVAS BACKGROUND ================= -->
+  <rect width="1180" height="610" rx="22" fill="url(#bg-grad-light)" stroke="url(#border-shimmer-light)" stroke-width="1.5" />
+  <rect width="1180" height="610" rx="22" fill="url(#grid-pattern-light)" />
+
+  <!-- Subtle Daylight Ambient Blobs -->
+  <circle cx="220" cy="90" r="160" fill="#38BDF8" fill-opacity="0.08" />
+  <circle cx="960" cy="140" r="190" fill="#818CF8" fill-opacity="0.08" />
+
+  <!-- ================= TOP TERMINAL CHROME BAR ================= -->
+  <rect x="18" y="16" width="1144" height="42" rx="12" fill="#FFFFFF" fill-opacity="0.95" stroke="#E2E8F0" stroke-width="1" />
+  
+  <!-- Terminal Buttons (Red, Yellow, Green) -->
+  <circle cx="44" cy="37" r="5.5" fill="#EF4444" />
+  <circle cx="62" cy="37" r="5.5" fill="#F59E0B" />
+  <circle cx="80" cy="37" r="5.5" fill="#10B981" />
+
+  <!-- Terminal Window Title -->
+  <text x="106" y="42" class="mono-l" font-size="12" fill="#475569" letter-spacing="0.5">
+    bongu-srilakshmi12@developer:~ <tspan fill="#CBD5E1">|</tspan> <tspan fill="#0284C7">~/portfolio-system</tspan>
+  </text>
+
+  <!-- Status Beacon Right -->
+  <g transform="translate(1015, 30)">
+    <rect x="0" y="0" width="132" height="22" rx="11" fill="#ECFDF5" stroke="#059669" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="14" cy="11" r="4" fill="#059669">
+      <animate attributeName="r" values="3.2;4.8;3.2" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <text x="26" y="15" class="mono-l" font-size="10" font-weight="700" fill="#059669" letter-spacing="0.8">ONLINE · v2.5</text>
+  </g>
+
+  <!-- ================= LEFT COLUMN: VISUAL.MAP (38% Width) ================= -->
+  <!-- Outer Card Frame -->
+  <rect x="36" y="72" width="408" height="514" rx="16" fill="url(#glass-grad-light)" stroke="#E2E8F0" stroke-width="1.2" />
+  
+  <!-- Left Panel Header -->
+  <path d="M 36 88 A 16 16 0 0 1 52 72 L 428 72 A 16 16 0 0 1 444 88 L 444 104 L 36 104 Z" fill="#F8FAFC" />
+  <line x1="36" y1="104" x2="444" y2="104" stroke="#E2E8F0" stroke-width="1" />
+  <text x="54" y="92" class="mono-l" font-size="10.5" font-weight="700" fill="#0284C7" letter-spacing="1.2">[ VISUAL.MAP // BIOMETRIC IDENTITY ]</text>
+  <text x="402" y="92" class="mono-l" font-size="10" fill="#94A3B8">ID:0412</text>
+
+  <!-- ASCII Portrait Container Card -->
+  <rect x="52" y="114" width="376" height="344" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
+  
+  <!-- Decorative Corner Crosshairs -->
+  <path d="M 56 126 L 56 118 L 64 118" stroke="#0284C7" stroke-width="1.5" fill="none" opacity="0.6" />
+  <path d="M 424 126 L 424 118 L 416 118" stroke="#0284C7" stroke-width="1.5" fill="none" opacity="0.6" />
+  <path d="M 56 446 L 56 454 L 64 454" stroke="#0284C7" stroke-width="1.5" fill="none" opacity="0.6" />
+  <path d="M 424 446 L 424 454 L 416 454" stroke="#0284C7" stroke-width="1.5" fill="none" opacity="0.6" />
+
+  <!-- High-Density Monospace ASCII Portrait Matrix -->
+  <g clip-path="url(#portrait-clip-light)">
+    <text x="62" y="130" class="ascii-text-light" xml:space="preserve">
+      <tspan x="62" dy="0">                  .:+*#%@@%#*+:.                 </tspan>
+      <tspan x="62" dy="11.2">              .+%@@@@@@@@@@@@@@@@%+.             </tspan>
+      <tspan x="62" dy="11.2">            :*@@@@@@@@@@@@@@@@@@@@@@*:           </tspan>
+      <tspan x="62" dy="11.2">           +@@@@@@@@@@@@@@@@@@@@@@@@@@+          </tspan>
+      <tspan x="62" dy="11.2">          *@@@@@@@@@@@@@@@@@@@@@@@@@@@@*         </tspan>
+      <tspan x="62" dy="11.2">         #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#        </tspan>
+      <tspan x="62" dy="11.2">        :@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:       </tspan>
+      <tspan x="62" dy="11.2">        +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+       </tspan>
+      <tspan x="62" dy="11.2">        *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*       </tspan>
+      <tspan x="62" dy="11.2">        %@@@@@@@@#*=-.    .-=*#@@@@@@@@@@%       </tspan>
+      <tspan x="62" dy="11.2">        %@@@@@@*-              -*@@@@@@@@%       </tspan>
+      <tspan x="62" dy="11.2">        %@@@@*:      .·  ·.      :*@@@@@@%       </tspan>
+      <tspan x="62" dy="11.2">        %@@@*    ·+*·      ·*+·    *@@@@@%       </tspan>
+      <tspan x="62" dy="11.2">        *@@#    :%@@:  ·.  :%@@:    #@@@@*       </tspan>
+      <tspan x="62" dy="11.2">        +@@-     ·-=·  ::   ·=-·    -@@@@+       </tspan>
+      <tspan x="62" dy="11.2">        :@@:           ..           :@@@@:       </tspan>
+      <tspan x="62" dy="11.2">         %@:         ·:==:·         :@@@@        </tspan>
+      <tspan x="62" dy="11.2">         #@+        :======:        +@@@#        </tspan>
+      <tspan x="62" dy="11.2">         -@@-       ·*====*·       -@@@@-        </tspan>
+      <tspan x="62" dy="11.2">          *@@:        .::.        :@@@@*         </tspan>
+      <tspan x="62" dy="11.2">          .@@@*.                .*@@@@@.         </tspan>
+      <tspan x="62" dy="11.2">           :%@@@%*-.        .-*%@@@@@@%          </tspan>
+      <tspan x="62" dy="11.2">            :#@@@@@@@%####%@@@@@@@@@@#:          </tspan>
+      <tspan x="62" dy="11.2">          .+%@@@@@@@@@@@@@@@@@@@@@@@@@@%+.       </tspan>
+      <tspan x="62" dy="11.2">        .*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*.     </tspan>
+      <tspan x="62" dy="11.2">       :@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:    </tspan>
+      <tspan x="62" dy="11.2">      =@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=   </tspan>
+      <tspan x="62" dy="11.2">     *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*  </tspan>
+    </text>
+
+    <!-- Scanline Laser Effect (SMIL) -->
+    <rect x="52" y="114" width="376" height="8" fill="url(#scanline-grad-light)">
+      <animate attributeName="y" values="114;440;114" dur="4s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Left Lower Terminal Status & Prompt -->
+  <g transform="translate(52, 470)">
+    <!-- Command Prompt -->
+    <text x="4" y="12" class="mono-l" font-size="10.5" fill="#64748B">
+      <tspan fill="#0284C7">~/portfolio</tspan> $ build --target=production
+    </text>
+    
+    <!-- Status Badge Container -->
+    <rect x="0" y="24" width="376" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+    
+    <!-- Pulsing Status Indicator -->
+    <circle cx="20" cy="45" r="4.5" fill="#059669">
+      <animate attributeName="r" values="3.5;5;3.5" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    
+    <text x="34" y="41" class="mono-l" font-size="10" font-weight="700" fill="#0F172A" letter-spacing="0.5">OPEN TO OPPORTUNITIES</text>
+    <text x="34" y="55" class="mono-l" font-size="9" fill="#475569">Immediate · Full-Time (Remote / Hybrid)</text>
+    
+    <!-- Location Pin Accent -->
+    <text x="278" y="49" class="mono-l" font-size="9.5" fill="#0284C7" font-weight="600">📍 Hyderabad, IN</text>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: SYSTEM.INFO (62% Width) ================= -->
+  <!-- Outer Card Frame -->
+  <rect x="460" y="72" width="684" height="514" rx="16" fill="url(#glass-grad-light)" stroke="#E2E8F0" stroke-width="1.2" />
+
+  <!-- Right Panel Header -->
+  <path d="M 460 88 A 16 16 0 0 1 476 72 L 1128 72 A 16 16 0 0 1 1144 88 L 1144 104 L 460 104 Z" fill="#F8FAFC" />
+  <line x1="460" y1="104" x2="1144" y2="104" stroke="#E2E8F0" stroke-width="1" />
+  <text x="478" y="92" class="mono-l" font-size="10.5" font-weight="700" fill="#0284C7" letter-spacing="1.2">[ SYSTEM.INFO // TELEMETRY &amp; PROFILE ]</text>
+  <text x="1050" y="92" class="mono-l" font-size="10" fill="#94A3B8">PROFILE.SH</text>
+
+  <!-- Terminal Command line -->
+  <text x="480" y="128" class="mono-l" font-size="11" fill="#475569">
+    <tspan fill="#059669">bongu-srilakshmi12@github</tspan>:<tspan fill="#0284C7">~$</tspan> ./inspect-profile.sh --full
+  </text>
+
+  <!-- Name & Title Block -->
+  <g transform="translate(480, 142)">
+    <!-- Primary Name -->
+    <text x="0" y="32" class="sans-l" font-size="32" font-weight="900" fill="url(#accent-blue-violet-light)" letter-spacing="-0.5">
+      SRI LAKSHMI BONGU
+    </text>
+
+    <!-- Role Prompt with SMIL Dynamic Role Rotation -->
+    <g transform="translate(0, 56)">
+      <text x="0" y="0" class="mono-l" font-size="14" font-weight="700" fill="#475569">
+        &gt; SPECIALIZATION:
+      </text>
+
+      <!-- Role 1: Frontend Developer -->
+      <text x="146" y="0" class="mono-l" font-size="14" font-weight="700" fill="#0284C7">
+        Frontend Developer
+        <animate attributeName="opacity" values="1;1;0;0;0;0;0;1" keyTimes="0;0.30;0.33;0.63;0.66;0.96;0.98;1" dur="9s" repeatCount="indefinite" />
+      </text>
+
+      <!-- Role 2: Next.js & React Engineer -->
+      <text x="146" y="0" class="mono-l" font-size="14" font-weight="700" fill="#7C3AED">
+        Next.js &amp; React Engineer
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.30;0.33;0.63;0.66;0.96;0.98;1" dur="9s" repeatCount="indefinite" />
+      </text>
+
+      <!-- Role 3: UI/UX Architecture Specialist -->
+      <text x="146" y="0" class="mono-l" font-size="14" font-weight="700" fill="#2563EB">
+        UI/UX Architecture Specialist
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.30;0.33;0.63;0.66;0.96;0.98;1" dur="9s" repeatCount="indefinite" />
+      </text>
+
+      <!-- Blinking Terminal Cursor -->
+      <text x="390" y="0" class="mono-l" font-size="14" font-weight="700" fill="#0284C7">
+        _
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+      </text>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="480" y1="216" x2="1124" y2="216" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- ================= METRICS & TELEMETRY GRID ================= -->
+  <g transform="translate(480, 226)">
+    <!-- Column 1 Labels -->
+    <text x="0" y="16" class="mono-l" font-size="11" font-weight="600" fill="#64748B">&gt; LOCATION</text>
+    <text x="110" y="16" class="mono-l" font-size="11" font-weight="600" fill="#0F172A">: Hyderabad, India</text>
+
+    <text x="0" y="36" class="mono-l" font-size="11" font-weight="600" fill="#64748B">&gt; EXPERIENCE</text>
+    <text x="110" y="36" class="mono-l" font-size="11" font-weight="600" fill="#0F172A">: 2+ Years [Enterprise &amp; High-Traffic Web Apps]</text>
+
+    <text x="0" y="56" class="mono-l" font-size="11" font-weight="600" fill="#64748B">&gt; COMPANY</text>
+    <text x="110" y="56" class="mono-l" font-size="11" font-weight="600" fill="#0284C7">: EVEGA Technologies</text>
+
+    <text x="0" y="76" class="mono-l" font-size="11" font-weight="600" fill="#64748B">&gt; EDUCATION</text>
+    <text x="110" y="76" class="mono-l" font-size="11" font-weight="600" fill="#0F172A">: B.Tech, Computer Science &amp; Engineering</text>
+
+    <text x="0" y="96" class="mono-l" font-size="11" font-weight="600" fill="#64748B">&gt; CORE FOCUS</text>
+    <text x="110" y="96" class="mono-l" font-size="11" font-weight="600" fill="#7C3AED">: Next.js 15 · React 19 · TypeScript · SSR/SSG · Web Vitals</text>
+  </g>
+
+  <!-- ================= TECH STACK PILLS ================= -->
+  <g transform="translate(480, 342)">
+    <text x="0" y="10" class="mono-l" font-size="10.5" font-weight="700" fill="#64748B" letter-spacing="1">
+      ENGINEERING STACK:
+    </text>
+
+    <!-- Pills Grid -->
+    <!-- Next.js -->
+    <g transform="translate(0, 20)">
+      <rect width="90" height="24" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+      <circle cx="12" cy="12" r="3" fill="#0F172A" />
+      <text x="22" y="16" class="mono-l" font-size="10" font-weight="600" fill="#0F172A">Next.js 15</text>
+    </g>
+
+    <!-- React 19 -->
+    <g transform="translate(98, 20)">
+      <rect width="84" height="24" rx="6" fill="#FFFFFF" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1" />
+      <circle cx="12" cy="12" r="3" fill="#0284C7" />
+      <text x="22" y="16" class="mono-l" font-size="10" font-weight="600" fill="#0284C7">React 19</text>
+    </g>
+
+    <!-- TypeScript -->
+    <g transform="translate(190, 20)">
+      <rect width="96" height="24" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="12" cy="12" r="3" fill="#2563EB" />
+      <text x="22" y="16" class="mono-l" font-size="10" font-weight="600" fill="#2563EB">TypeScript</text>
+    </g>
+
+    <!-- Tailwind CSS -->
+    <g transform="translate(294, 20)">
+      <rect width="102" height="24" rx="6" fill="#FFFFFF" stroke="#0284C7" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="12" cy="12" r="3" fill="#0284C7" />
+      <text x="22" y="16" class="mono-l" font-size="10" font-weight="600" fill="#0284C7">Tailwind CSS</text>
+    </g>
+
+    <!-- REST APIs -->
+    <g transform="translate(404, 20)">
+      <rect width="88" height="24" rx="6" fill="#FFFFFF" stroke="#4F46E5" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="12" cy="12" r="3" fill="#4F46E5" />
+      <text x="22" y="16" class="mono-l" font-size="10" font-weight="600" fill="#4F46E5">REST APIs</text>
+    </g>
+
+    <!-- Vercel -->
+    <g transform="translate(500, 20)">
+      <rect width="70" height="24" rx="6" fill="#FFFFFF" stroke="#64748B" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="12" cy="12" r="3" fill="#334155" />
+      <text x="22" y="16" class="mono-l" font-size="10" font-weight="600" fill="#334155">Vercel</text>
+    </g>
+
+    <!-- Cloud -->
+    <g transform="translate(578, 20)">
+      <rect width="66" height="24" rx="6" fill="#FFFFFF" stroke="#EA580C" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="12" cy="12" r="3" fill="#EA580C" />
+      <text x="22" y="16" class="mono-l" font-size="10" font-weight="600" fill="#EA580C">Cloud</text>
+    </g>
+  </g>
+
+  <!-- ================= PRODUCTION HIGHLIGHTS & WORK ================= -->
+  <g transform="translate(480, 404)">
+    <text x="0" y="10" class="mono-l" font-size="10.5" font-weight="700" fill="#64748B" letter-spacing="1">
+      PRODUCTION PLATFORMS &amp; KEY DELIVERABLES:
+    </text>
+
+    <!-- Project 1 -->
+    <g transform="translate(0, 20)">
+      <text x="0" y="11" class="mono-l" font-size="11" font-weight="700" fill="#0284C7">▸ Conference Platforms</text>
+      <text x="180" y="11" class="mono-l" font-size="10.5" fill="#475569">Multi-tenant event portals, payment workflows &amp; sub-sec LCP</text>
+    </g>
+
+    <!-- Project 2 -->
+    <g transform="translate(0, 38)">
+      <text x="0" y="11" class="mono-l" font-size="11" font-weight="700" fill="#7C3AED">▸ Digital Experiences</text>
+      <text x="180" y="11" class="mono-l" font-size="10.5" fill="#475569">Modular Next.js architecture, responsive &amp; accessible UI systems</text>
+    </g>
+
+    <!-- Project 3 -->
+    <g transform="translate(0, 56)">
+      <text x="0" y="11" class="mono-l" font-size="11" font-weight="700" fill="#2563EB">▸ Interactive Portfolio</text>
+      <text x="180" y="11" class="mono-l" font-size="10.5" fill="#475569">Next.js 15 App Router, React 19, custom particles &amp; cyber aesthetics</text>
+    </g>
+  </g>
+
+  <!-- ================= FOOTER / SOCIAL CONNECT DOCK ================= -->
+  <g transform="translate(480, 494)">
+    <line x1="0" y1="0" x2="644" y2="0" stroke="#E2E8F0" stroke-width="1" />
+    
+    <!-- Link: Portfolio -->
+    <g transform="translate(0, 16)">
+      <rect width="144" height="28" rx="8" fill="#FFFFFF" stroke="#0284C7" stroke-opacity="0.3" stroke-width="1" />
+      <text x="12" y="18" class="mono-l" font-size="10" font-weight="600" fill="#0284C7">🌐 srilakshmi-bongu</text>
+    </g>
+
+    <!-- Link: LinkedIn -->
+    <g transform="translate(154, 16)">
+      <rect width="150" height="28" rx="8" fill="#FFFFFF" stroke="#4F46E5" stroke-opacity="0.3" stroke-width="1" />
+      <text x="12" y="18" class="mono-l" font-size="10" font-weight="600" fill="#4F46E5">💼 in/sri-lakshmi-bongu</text>
+    </g>
+
+    <!-- Link: GitHub -->
+    <g transform="translate(314, 16)">
+      <rect width="146" height="28" rx="8" fill="#FFFFFF" stroke="#334155" stroke-opacity="0.3" stroke-width="1" />
+      <text x="12" y="18" class="mono-l" font-size="10" font-weight="600" fill="#0F172A">◈ @Bongu-Srilakshmi12</text>
+    </g>
+
+    <!-- Link: Email -->
+    <g transform="translate(470, 16)">
+      <rect width="174" height="28" rx="8" fill="#FFFFFF" stroke="#059669" stroke-opacity="0.3" stroke-width="1" />
+      <text x="12" y="18" class="mono-l" font-size="10" font-weight="600" fill="#059669">✉ srilakshmigoud0412</text>
+    </g>
+  </g>
+</svg>

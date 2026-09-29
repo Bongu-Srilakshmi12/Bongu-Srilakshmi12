@@ -9,7 +9,7 @@
 
   <br><br>
 
-  <!-- QUICK CONNECT & STATUS BADGES -->
+  <!-- QUICK CONNECT BADGES -->
   <a href="https://srilakshmi-bongu.vercel.app">
     <img src="https://img.shields.io/badge/🌐_Live_Portfolio-srilakshmi--bongu.vercel.app-00D4FF?style=for-the-badge&logoColor=white&labelColor=0B1322" alt="Portfolio Badge">
   </a>
@@ -32,22 +32,8 @@
 I am a results-driven **Frontend Developer** with **2+ years of production experience** engineering responsive, scalable, and high-performance web applications using **Next.js 15, React 19, and TypeScript**.
 
 - 🔭 **Current Focus:** High-performance web architecture, SSR/SSG rendering patterns, Core Web Vitals optimization, and modular UI engineering.
-- 💼 **Enterprise Experience:** Spearheaded frontend architecture and production deliverables for high-traffic multi-tenant conference platforms and client portals at **EVEGA Technologies**.
-- 🎨 **Engineering Philosophy:** Clean component modularity, pixel-perfect design translation from Figma, resilient API integrations, and accessible user experiences.
+- 🎨 **Engineering Philosophy:** Clean component modularity, pixel-perfect Figma design translation, and accessible user experiences.
 - 📍 **Location:** Hyderabad, India · *Open to Full-Time Remote and Hybrid Opportunities.*
-
----
-
-### 🏢 Production Engineering Experience
-
-#### **Frontend Developer — EVEGA Technologies**
-*May 2024 – Present | Hyderabad, India*
-
-- **Multi-Tenant Conference Platforms:** Developed and maintained dynamic, interactive production websites for major international conference brands, managing high-volume attendee registrations and speaker agendas.
-- **Payment & Workflow Integrations:** Implemented seamless third-party payment gateway workflows and server-side route integrations with resilient error handling and real-time state feedback.
-- **Performance & Core Web Vitals:** Optimized Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS) through Next.js SSR/SSG, dynamic asset streaming, image caching, and component lazy-loading.
-- **Design System Implementation:** Translated complex Figma wireframes and high-fidelity prototypes into responsive, accessible, cross-browser web interfaces adhering to modern web standards.
-- **Collaborative Git Workflows:** Collaborated across Agile/Scrum sprints utilizing GitHub pull requests, branch protection rules, code reviews, and automated CI/CD deployment pipelines on Vercel and Cloudflare.
 
 ---
 
@@ -70,7 +56,6 @@ I am a results-driven **Frontend Developer** with **2+ years of production exper
       <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
       <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
       <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-      <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
     </td>
   </tr>
   <tr>
@@ -94,72 +79,6 @@ I am a results-driven **Frontend Developer** with **2+ years of production exper
     </td>
   </tr>
 </table>
-
----
-
-### 🚀 Featured Repositories & Work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Bongu-Srilakshmi12/srilakshmi-bongu-portfolio">🌐 srilakshmi-bongu-portfolio</a></h4>
-      <p>Modern developer portfolio engineered with Next.js 15 (App Router), React 19, TypeScript, and Tailwind CSS. Features custom particle physics, mouse spotlight tracking, and server route handlers.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Bongu-Srilakshmi12/irctc-booking-simulation">🚄 irctc-booking-simulation</a></h4>
-      <p>Interactive railway reservation workflow simulation built with modern TypeScript and responsive styling, demonstrating modular state management, booking logic, and validation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Frontend-00D4FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/Simulation-7C3AED?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Bongu-Srilakshmi12/chat-application">💬 chat-application</a></h4>
-      <p>Real-time chat client interface demonstrating component-driven architecture, event-driven message feeds, asynchronous data handling, and mobile-friendly responsive UI.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/RealTime_UI-10B981?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Bongu-Srilakshmi12/Employee-Management-Project">👥 Employee-Management-Project</a></h4>
-      <p>Administrative records management system supporting CRUD operations, dynamic search, employee status filtering, and structured data handling.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/CRUD_Architecture-38BDF8?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-### 📊 GitHub Telemetry & Activity
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=Bongu-Srilakshmi12&show_icons=true&theme=tokyonight&bg_color=0B1322&title_color=00D4FF&text_color=94A3B8&icon_color=C084FC&border_color=1E293B&border_radius=12&hide_border=false" alt="Sri Lakshmi's GitHub Stats" height="175" />
-      </td>
-      <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Bongu-Srilakshmi12&theme=tokyonight&background=0B1322&ring=00D4FF&fire=00D4FF&currStreakNum=F8FAFC&sideNums=94A3B8&sideLabels=94A3B8&dates=64748B&border=1E293B&border_radius=12" alt="GitHub Streak Stats" height="175" />
-      </td>
-    </tr>
-  </table>
-  
-  <br>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bongu-Srilakshmi12&layout=compact&theme=tokyonight&bg_color=0B1322&title_color=00D4FF&text_color=94A3B8&border_color=1E293B&border_radius=12&hide=jupyter%20notebook" alt="Top Languages" />
-</div>
 
 ---
 
